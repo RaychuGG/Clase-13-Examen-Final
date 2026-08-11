@@ -1,0 +1,25 @@
+header {
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+}
+
+.logo img{
+    width: 140px;
+}
+
+.menu{
+    display: flex;
+    gap: 40px;
+    
+}
+
+.menu a{
+    color: #000000;
+    font-size: 16px;
+}
