@@ -41,28 +41,3 @@ nav{
         font-size: 14px;
     }
 }
-
-@media (max-width: 768px){
-    .hero{
-        flex-direction: column;
-        text-align: center;
-        gap: 50px;
-        margin-top: 40px;
-    }
-
-    .hero-content{
-        max-width: 600px;
-    }
-
-    .hero-content h1{
-        font-size: 40px;
-    }
-
-    .hero-content P{
-        font-size: 16PX;
-    }
-
-    .hero-img img{
-        width: 80%;
-    }
-}
