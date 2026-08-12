@@ -23,3 +23,21 @@ nav{
     color: #000000;
     font-size: 16px;
 }
+
+@media (max-width: 480px){
+    nav{
+        padding: 10px 10px;
+    }
+
+    .logo img{
+        width: 120px;
+    }
+
+    .menu{
+        gap: 15px;
+    }
+
+    .menu a{
+        font-size: 14px;
+    }
+}
