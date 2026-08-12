@@ -53,3 +53,24 @@
     width: 30px;
     width: 30px;
 }
+
+@media (max-widht: 480px){
+    .hero{
+        width: 90%;
+        margin-top: 30px;
+        gap: 35px;
+    }
+
+    .hero-content h1{
+        font-size: 32px;
+    }
+
+    .hero-content p{
+        font-size: 15px;
+    }
+
+    .hero-img{
+        width: 100%;
+        align-items: center;
+    }
+}
